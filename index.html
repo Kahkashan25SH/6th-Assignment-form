@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information Form</title>
+</head>
+<body>
+  <form id="user-form">
+    <fieldset style="text-align:center;">
+      <h1>Registration Form</h1>
+
+    <br><label for="name"> Full Name:</label>
+        <input type="email" id="name" name="name" required>
+
+    <br><label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+    <br><label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+    <br><label for="birth">Birth:</label>
+        <input type="date" id="birth" name="birth" required>
+    
+  
+    <br><label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="0" required>
+    
+
+    <br><label for="phone">Phone Number:</label>
+       <input type="tel" id="phone" name="phone" required>
+    
+
+    <br><label for="profile">Profile Picture</label>
+        <input type="file" id="profile" name="profile">
+    
+    
+
+    <br><label for="gender">Gender:</label>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="other">Other
+    
+
+    <br><label for="select">Hobbies:</label>
+        <input type="checkbox" name="select" value="reading"> Reading
+        <input type="checkbox" name="select" value="traveling">Traveling
+        <input type="checkbox" name="select" value="cooking">Cooking
+        <input type="checkbox" name="select" value="sports">Sports
+
+    <br><label for="country">Country:</label>
+        <select name="country" id="country">
+        <option value="pakistan">Pakistan</option>
+        <option value="canada">Canada</option>
+        <option value="saudia">Saudia</option>
+        <option value="africa">Africa</option>
+        <option value="Dubai">Dubai</option></select>
+         
+    <br><label for="bio">Bio:</label></br>
+    <textarea id="bio" name="bio" cols="20" rows="2" required></textarea>
+    </br>
+
+    <br><input type="submit" value="Submit"></br>
+     </fieldset>
+  </form>
+
+</body>
+</html>
